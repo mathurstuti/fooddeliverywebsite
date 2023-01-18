@@ -1,0 +1,86 @@
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    margin-top: -45px;
+}
+
+.navbar ul li a{
+    font-size: 1.1rem;
+    padding: 7px;
+    margin: 10px;
+    text-align: center;
+}
+
+#home{
+    height: 400px;
+}
+
+#home::before{
+    height: 590px;
+}
+
+#home h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#home p{
+    font-size: 1.3rem;
+}
+
+#home button{
+    font-size: 0.9rem;
+    padding:6px;
+}
+
+#services h1{
+    font-size: 2rem;
+}
+.container{
+    flex-direction: column;
+}
+
+.container div{
+    padding: 5px 2px;
+    margin: 7px 25px;
+}
+
+.container div h2{
+    font-size: 1.5rem;
+}
+
+.container div p{
+    font-size: 1rem;
+}
+
+#about h1{
+    font-size: 2rem;
+}
+
+#about p{
+    font-size: 1rem ;
+    margin-left:350px;
+}
+
+#contact h1{
+    font-size: 2rem;
+}
+
+#contact div{
+    margin-top: 10px;
+}
+
+#contact input, 
+#contact textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 0.7rem;
+} 
+
+#contact label{
+    font-size: 1rem;
+}
